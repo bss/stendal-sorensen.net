@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html land="en">
+<head>
+	<title>Bo Stendal Sørensen</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" />
+	<link rel="stylesheet" type="text/css" href="businesscard.css" />
+</head>
+<body>
+	<article itemscope itemtype="http://data-vocabulary.org/Person">
+		<header>
+			<h1 itemprop="name"><span >Bo Stendal Sørensen</span></h1>
+			<h2 itemprop="title"><span>Master Student / Developer / Sysadmin</span></h2>
+		</header>
+		<section id="contact-info">
+			<p id="address" itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
+				<a href="http://maps.google.com/?q=2505A%20E%203rd%20St,%20Greenville,%20NC%2027858,%20U.S.A.">
+					<span itemprop="street-name">2505A E 3rd St</span><br />
+					<span itemprop="locality">Greenville</span>, 
+					<span itemprop="region">NC</span> 
+					<span itemprop="postal-code">27858</span>
+				</a>
+			</p>
+			<p id="phone"><a href="tel:+1-252-347-3471">(+1) 252-347-3471</a></p>
+			<p id="mail"><a id="mailAddr">bo&lt;AT&gt;stendal-sorensen.net</a></p>
+		</section>
+		<section id="third-party-links">
+			<a href="http://twitter.com/bssdk" class="twitter-link">Twitter</a>
+			<a href="http://dk.linkedin.com/in/dkbss" class="linkedin-link">LinkedIn</a>
+			<a href="http://zerp.ly/bssdk" class="zerply-link">Zerply</a>
+			<a href="https://plus.google.com/116505869080175459193?rel=author">Google+</a>
+		</section>
+	</article>
+	<script type="text/javascript">
+		var addrDom = document.getElementById("mailAddr");
+		addrDom.innerHTML = addrDom.innerHTML.replace('&lt;AT&gt;', '@');
+		addrDom.setAttribute('href', 'mailto:'+addrDom.innerHTML);
+	</script>
+</body>
+</html>

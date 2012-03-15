@@ -53,16 +53,22 @@ article section#contact-info > * {
 article section#contact-info p#address {
     padding-top: 0px;
     padding-bottom: 0px;
-    background: url(images/pin_map_icon&24.png) no-repeat 0px 0px;
+    background: url(images/103-map.png) no-repeat 0px 0px;
 }
 
 article section#contact-info p#phone {
-    background: url(images/phone_2_icon&24.png) no-repeat 0px 0px;
+    background: url(images/32-iphone.png) no-repeat 0px 0px;
+		line-height: 28px;
 }
 
 article section#contact-info p#mail {
-    background: url(images/mail_icon&24.png) no-repeat 0px 0px;
+    background: url(images/18-envelope.png) no-repeat 0px 0px;
 }
+
+article section#contact-info p#website {
+    background: url(images/211-action.png) no-repeat 0px 0px;
+}
+
 
 section#third-party-links {
     margin-top: 50px;
@@ -128,4 +134,8 @@ a.linkedin-link {
 		clear: both;
 		margin: 8px 0px;
 	}
+}
+
+.grave {
+	border: 1px solid red;
 }

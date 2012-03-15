@@ -53,15 +53,15 @@ article section#contact-info > * {
 article section#contact-info p#address {
     padding-top: 0px;
     padding-bottom: 0px;
-    background: url(/images/pin_map_icon&24.png) no-repeat 0px 0px;
+    background: url(images/pin_map_icon&24.png) no-repeat 0px 0px;
 }
 
 article section#contact-info p#phone {
-    background: url(/images/phone_2_icon&24.png) no-repeat 0px 0px;
+    background: url(images/phone_2_icon&24.png) no-repeat 0px 0px;
 }
 
 article section#contact-info p#mail {
-    background: url(/images/mail_icon&24.png) no-repeat 0px 0px;
+    background: url(images/mail_icon&24.png) no-repeat 0px 0px;
 }
 
 section#third-party-links {
@@ -87,19 +87,19 @@ section#third-party-links a:last-child {
 a.zerply-link {
     width: 65px;
     height: 24px;
-    background: url(/images/Zerply_logo.png) no-repeat;
+    background: url(images/Zerply_logo.png) no-repeat;
 }
 
 a.twitter-link {
     width: 130px;
     height: 24px;
-    background: url(/images/twitter_logo.png) no-repeat;
+    background: url(images/twitter_logo.png) no-repeat;
 }
 
 a.linkedin-link {
     width: 88px;
     height: 24px;
-    background: url(/images/linkedin_logo.png) no-repeat;
+    background: url(images/linkedin_logo.png) no-repeat;
 }
 @media screen and (max-width: 480px){
 	article {
